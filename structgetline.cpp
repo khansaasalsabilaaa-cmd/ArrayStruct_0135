@@ -16,7 +16,7 @@ struct orang
 int main()
 {
     //deklarasi variabel struct
-    Orang mhs;
+    orang mhs;
     //mengisi data
     cout << "Isikan data nama : ";
     getline(cin , mhs.nama);
