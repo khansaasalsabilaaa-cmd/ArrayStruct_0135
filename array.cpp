@@ -36,6 +36,7 @@ int main()
     cout << endl;
 
     cout << "Input Array Menggunakan For" << endl;
-    
+    // mengisi data melalui perulangan
+    for (int i = 0; i <= 4; i++)
 }
 
