@@ -1,9 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     //deklarasi array dengan inisialisasi
     int dataku [5] = {10,20,30,40,50};
     //deklarasi tanpa inisialisasi
     int datamu [5];
+
+    //cara akses (membaca atau mengambil isi array)
+    cout << "Isi data kedua : " << dataku[1]<< endl;
+    //mengisi array
+    dataku[1] = 200;
+    cout << "Isi data kedua setelah diubah : " << dataku[1] << endl;
 }
