@@ -1,9 +1,24 @@
 #include <iostream>
 using namespace std;
 
-struct orang
+struct Orang
 {
     string nama;
     string alamat;
     int umur;
 };
+
+int main()
+{
+    //deklarasi variabel struct
+    Orang mhs;
+    //mengisi data
+    cout << "Isikan data nama : ";
+    cin >> mhs.nama;
+    cout << "Isikan data alamat : ";
+    cin >> mhs.alamat;
+    cout << "Isikan data umur : ";
+    cin >> mhs.umur;
+    cout << endl;
+
+}
